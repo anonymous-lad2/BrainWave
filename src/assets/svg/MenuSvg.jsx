@@ -1,4 +1,4 @@
-const MenuSvg = ({ openNavigation }) => {
+export const MenuSvg = ({ openNavigation }) => {
   return (
     <svg
       className="overflow-visible"
@@ -27,5 +27,3 @@ const MenuSvg = ({ openNavigation }) => {
     </svg>
   );
 };
-
-export default MenuSvg;
